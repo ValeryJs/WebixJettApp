@@ -56,3 +56,71 @@
 	font-size:20px;
 	vertical-align:middle;
 }
+
+.app-contacts_item {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.app-contacts_photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.app-contacts_photo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.app-contacts_body {
+    flex-grow: 1;
+    padding-left: 15px;
+}
+
+.app-contacts_name,
+.app-contacts_description {
+    display: block;
+    line-height: normal;
+}
+
+.webix_layout_toolbar .webix_el_label.app-user-name {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.app-user-info {
+    display: flex;
+    font-size: 16px;
+}
+
+.app-user-info_col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.app-user-info_col + .app-user-info_col {
+    margin-left: 40px;
+}
+
+.app-user-info_photo {
+    width: 200px;
+    height: 200px;
+}
+
+.app-user-info_photo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.app-user-info_status {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.app-user-info_item + .app-user-info_item {
+    margin-top: 20px;
+}
